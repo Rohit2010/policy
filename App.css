@@ -1,0 +1,133 @@
+*{
+    margin: auto;
+    padding: 2px;
+}
+
+/* Navbar */
+.navbar{
+    min-width: 92vw;
+    min-height: auto;
+}
+/* Navbar */
+
+/* Jumbotron */
+.hero{
+    align-items: center;
+    text-align: center;
+    min-width: 90vw;
+    min-height: auto; 
+}
+/* Jumbotron */
+
+
+/* Category */
+.cards{
+    margin-top: 50px;
+}
+main{
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 0 20px;
+        width: 100%; 
+        display: grid;
+        /* Define Auto Row size */
+        /* grid-auto-rows: 100px;  */
+        /*Define our columns */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        grid-gap: 1em;
+}
+.cards{
+    margin: auto;
+}
+.card:hover {
+    justify-content: space-around;
+    align-content: center;
+    box-shadow: 0 0 10px;
+    transition: .8em;
+    background-color: darkgray;
+}
+/* Category */
+
+
+/* Content */
+.Content{
+    margin: auto;
+}
+/* Content */
+
+
+/* Why compare insurance Quote with us */
+.content_media {
+    justify-content: space-around;
+    align-content: center;
+  border-radius: 12px; 
+}
+/* Why compare insurance Quote with us */
+
+
+/* footer */
+ .div{  
+    justify-content: space-around;
+    align-content: center;
+    color: blanchedalmond;
+    background-color: rgb(75, 74, 74);
+}
+/* footer */
+
+
+
+
+/* <================================Form CSS=============================================> */
+
+
+/* UserInput */
+
+
+/* (Code for responsive behaviour) */
+.input{
+    margin: auto;
+    width: 80vw;
+    height: auto;
+    justify-items: center;
+    place-items: center;
+    background-color: #99AAAB;
+    color: #EAF0F1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* (Code for responsive behaviour) */
+
+
+
+/* form */
+
+.form{
+    margin: auto;
+}
+.form:hover{
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    background-color: #7B8788;
+    transition: .4s;
+
+}
+/* form */
+
+
+/* Hello */
+.hello{
+    margin: auto;
+    height: 80vh;
+    width: 50vw;
+    justify-items: center;
+    place-items: center;
+}
+h1{
+    text-decoration: none;
+   text-justify: auto;    
+}
+/* Hello */
+
+
+/* UserInput */
